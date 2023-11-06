@@ -1,0 +1,64 @@
+body{
+    background-image: url(./bgm_3_03.png);
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+span{
+    color: orange;
+}
+
+p{
+    color: white;
+}
+
+.First{
+    text-align: center;
+}
+
+.Second{
+   text-align: center;
+}
+
+.List{
+ display: flex;
+ gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.List li{
+  background-color: white;
+  width: calc(20% - 50px);
+  margin: 10px;
+  padding: 35px 1px 35px 1px;
+  text-align: center;
+}
+
+.wrapper{
+    max-width: 1764px;
+    width: 100%;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+    
+.List li:hover{background-color: orange;}
+
+.Para:hover{ color: aliceblue;}
+
+img:hover{color: aliceblue;}
+
+
+
+.Para{
+    color: black;
+}
+
+#bgbox{
+    background-color: orange;
+}
